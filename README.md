@@ -2,16 +2,17 @@
 
 [github地址:https://github.com/Niin0/Four-arithmetic-generator](https://github.com/Niin0/Four-arithmetic-generator)
 
-使用Python语言编写，可以随机产生一个有两个运算符，三个运算数的四则运算式
-没有~~图形界面~~，交互全靠命令行
+一个四则运算产生器网页，使用Python语言编写，基于Flexx框架，可以随机产生有两个运算符，三个运算数的四则运算式
+
 有以下几点功能: 
 1. 运算数和结果都在100内
 2. 可自主决定产生的题目数量
-3. 可以将答题记录导出到csv文件中
+3. 答题并检验对错
+3. 可以将题目或者答题记录导出到csv文件中
 
 ![预览图1](https://github.com/Niin0/-/blob/master/QQ%E6%88%AA%E5%9B%BE20190408181138.png "预览图1")
 
-- 运行*GQ.py*文件后，提示“***输入要产生的题目个数***”
+- 运行*app.py*文件后，提示“***输入要产生的题目个数***”
   
   ![输入题目数量](https://github.com/Niin0/Four-arithmetic-generator/blob/master/QQ%E6%88%AA%E5%9B%BE20190408211121.png "题目数量")
 - 在命令行输入题目个数后，会连续输出题目，在命令行输入自己的答案。然后程序会判断对错，并出相应的回复

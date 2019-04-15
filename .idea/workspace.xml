@@ -2,85 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e628afe-ae8d-4f16-8e88-bb6c7e0dd274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GiveQuestions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/__main__.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/__main__.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx-core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui._widget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui._widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._hv.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._hv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.layouts._layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._label.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._lineedit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/flexx.ui.widgets._lineedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexx/assets/shared/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408181138 (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408181138.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408181236.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408210350.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408210443.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408210705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/QQ截图20190408211121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_contextvars.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_queue.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/libcrypto-1_1-x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/libssl-1_1-x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python37.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/mainview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +18,14 @@
     <SUITE FILE_PATH="coverage/GiveQuestions$GQ.coverage" NAME="GQ Coverage Results" MODIFIED="1554976967590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GiveQuestions$test.coverage" NAME="test Coverage Results" MODIFIED="1555140686903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GiveQuestions$example.coverage" NAME="example Coverage Results" MODIFIED="1554979274240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Four_arithmetic_generator$app.coverage" NAME="app Coverage Results" MODIFIED="1555304509552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Four_arithmetic_generator$app.coverage" NAME="app Coverage Results" MODIFIED="1555306595369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
+            <state relative-caret-position="2720">
               <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -336,21 +260,22 @@
       <workItem from="1555289774493" duration="408000" />
       <workItem from="1555300935855" duration="2588000" />
       <workItem from="1555303585450" duration="883000" />
+      <workItem from="1555306586806" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65299000" />
+    <option name="totallyTimeSpent" value="65907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14056225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14257029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" weight="0.30140486" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.30140486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,26 +300,11 @@
     <entry file="file://$PROJECT_DIR$/example.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/example.html" />
-    <entry file="file://$PROJECT_DIR$/e2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/e2.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
+        <state relative-caret-position="2720">
           <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
