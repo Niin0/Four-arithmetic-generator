@@ -2,8 +2,6 @@ from flexx import flx
 import random
 import csv
 
-data_array = [random.randint(0, 100) for i in range(100)]
-
 
 class Fag(flx.PyComponent):
 
@@ -144,23 +142,34 @@ class MainWindow(flx.PyComponent):
                 self.le2 = flx.LineEdit(placeholder_text='输入你的答案')
                 self.lb3 = flx.Label(text='提示框:')
                 self.le3 = flx.LineEdit()
+            self.le4 = flx.Label()
+
 
     @flx.reaction('b1.pointer_click')
     def showquestion(self, *events):
         # print(int(self.le1.text))
         if self.le1.text.isdigit():
             self.num = int(self.le1.text)
-            self.ql = self.fag.train(int(self.le1.text))
-            with self.vb1:
-                for i, q in enumerate(self.ql):
-                    flx.Label(parent=self.vb1, text='题目' + str(i + 1) + ':  ' + q[0])
+            if self.num <= 1000 and self.num > 0:
+                self.ql = []
+                self.ql = self.fag.train(int(self.le1.text))
+                text = ["题目%i: %s<br />" % (i+1, self.ql[i][0]) for i in range(len(self.ql))]
+                self.le4.set_html('题目列表: <br />'+''.join(text))
+                        # flx.Label(parent=self.vb1, text='题目' + str(i + 1) + ':  ' + q[0])
+            elif self.num > 1000:
+                self.le3.set_text('题目数量不能超过1000')
+            elif self.num <= 0:
+                self.le3.set_text('题目数量必须为大于0小于1000的整数')
         else:
-            self.le3.set_text('题目数量必须为整数')
+            self.le3.set_text('题目数量必须为整数，不能为其他字符')
 
     @flx.reaction('b2.pointer_click')
     def exportquestion(self, *events):
-        self.fag.export(self.ql)
-        self.le3.set_text('导出成功,文件路径为d:/test.csv')
+        if len(self.ql):
+            self.fag.export(self.ql)
+            self.le3.set_text('导出成功,文件路径为d:/test.csv')
+        else:
+            self.le3.set_text('题目列表为空,无需导出')
 
     @flx.reaction('b3.pointer_click')
     def startjudge(self, *events):
@@ -185,9 +194,10 @@ class MainWindow(flx.PyComponent):
 
             else:
                 self.le3.set_text('答题结束,停止作答')
+                self.cnt = 0
                 self.flag = 0
         else:
-            self.lb3.set_text('未开始答题')
+            self.le3.set_text('未开始答题')
 
 
 class MainView(flx.PyComponent):

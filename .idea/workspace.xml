@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e628afe-ae8d-4f16-8e88-bb6c7e0dd274" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fag.py" beforeDir="false" afterPath="$PROJECT_DIR$/fag.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +17,17 @@
     <SUITE FILE_PATH="coverage/GiveQuestions$app.coverage" NAME="app Coverage Results" MODIFIED="1555303341066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GiveQuestions$GQ.coverage" NAME="GQ Coverage Results" MODIFIED="1554976967590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GiveQuestions$test.coverage" NAME="test Coverage Results" MODIFIED="1555140686903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Four_arithmetic_generator$fag.coverage" NAME="fag Coverage Results" MODIFIED="1555311320411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GiveQuestions$example.coverage" NAME="example Coverage Results" MODIFIED="1554979274240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Four_arithmetic_generator$app.coverage" NAME="app Coverage Results" MODIFIED="1555307469149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Four_arithmetic_generator$app.coverage" NAME="app Coverage Results" MODIFIED="1555325913807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
+            <state relative-caret-position="448">
+              <caret line="196" column="28" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -32,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="136" selection-end-column="40" />
+            <state relative-caret-position="380">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -63,6 +66,7 @@
         <option value="$PROJECT_DIR$/GQ.py" />
         <option value="$PROJECT_DIR$/e2.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/fag.py" />
         <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
@@ -115,28 +119,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.app">
-    <configuration name="GQ" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GiveQuestions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\GiveQuestions\fag.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GiveQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,6 +185,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GiveQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GiveQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,10 +232,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.fag" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.e2" />
         <item itemvalue="Python.example" />
-        <item itemvalue="Python.GQ" />
       </list>
     </recent_temporary>
   </component>
@@ -258,22 +262,23 @@
       <workItem from="1555289774493" duration="408000" />
       <workItem from="1555300935855" duration="2588000" />
       <workItem from="1555303585450" duration="883000" />
-      <workItem from="1555306586806" duration="1207000" />
+      <workItem from="1555306586806" duration="7543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66506000" />
+    <option name="totallyTimeSpent" value="72842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14257029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14257029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.30140486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.30140486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,22 +305,22 @@
     <entry file="file://$PROJECT_DIR$/example.html" />
     <entry file="file://$PROJECT_DIR$/e2.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/fag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
+        <state relative-caret-position="380">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fag.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="136" selection-end-column="40" />
+        <state relative-caret-position="448">
+          <caret line="196" column="28" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
